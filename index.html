@@ -6,6 +6,82 @@
   <title>FWD Lesson</title>
 </head>
 <body>
-  
+  <main style="margin: 0 auto; max-width: 500px; width: 100%; margin-top: 100px;">
+    <h1>Sign Up</h1>
+    <form action="/news.html">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Please enter your email" value="test@gmail.com">
+      <br>
+      <br>
+
+      <label for="first_name">First name:</label>
+      <input type="text" name="first_name" id="first_name" minlength="3" maxlength="100" placeholder="Enter your first name" required>
+      <br>
+      <br>
+
+      <label for="last_name">Last name:</label>
+      <input type="text" name="last_name" id="last_name" minlength="3" maxlength="100" placeholder="Enter your last name" required>
+      <br>
+      <br>
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password">
+      <br>
+      <br>
+
+      <label for="country">Country of residence:</label>
+      <select name="country" id="country" required>
+        <option value="">Pleas select a country</option>
+        <option value="ua">Ukraine</option>
+        <option value="us" selected>United States</option>
+        <option value="gb">Great Britain</option>
+        <option value="pl">Poland</option>
+      </select>
+      <br>
+      <br>
+
+      <fieldset>
+        <legend>Gender</legend>
+        <label for="gender_male">Male:</label>
+        <input type="radio" name="gender" id="gender_male" value="male" checked>
+        <br>
+        <label for="gender_female">Female:</label>
+        <input type="radio" name="gender" id="gender_female" value="female">
+        <br>
+        <label for="gender_other">Other:</label>
+        <input type="radio" name="gender" id="gender_other" value="other">
+        <br>
+      </fieldset>
+      <br>
+      <br>
+
+      <fieldset>
+        <legend>How we can contact you?</legend>
+        <label for="by_phone">By phone:</label>
+        <input type="checkbox" name="contact_method" id="by_phone" value="phone">
+        <br>
+        <label for="by_email">By email:</label>
+        <input type="checkbox" name="contact_method" id="by_email" value="email">
+        <br>
+        <label for="by_post">By post:</label>
+        <input type="checkbox" name="contact_method" id="by_post" value="post">
+        <br>
+      </fieldset>
+      <br>
+      <br>
+
+      <label for="birthday">When were you born:</label>
+      <input type="date" name="birthday" id="birthday">
+      <br>
+      <br>
+
+      <label for="message">Please enter your message:</label><br>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      <br>
+      <br>
+
+      <button>Submit</button>
+    </form>
+  </main>  
 </body>
 </html>
