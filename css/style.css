@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+}
+
+p {
+  color: blue;
+}
+
+#side-navigation {
+  list-style: circle;
+}
+
+.navigation-list {
+  list-style: square;
+  font-weight: bold;
+}
+
+.navigation-italic {
+  font-style: italic;
+  font-weight: normal;
+}
